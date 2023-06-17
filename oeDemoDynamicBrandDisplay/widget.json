@@ -1,0 +1,13 @@
+{
+  "name": "oeDemoDynamicBrandDisplay",
+  "widgetType": "oeDemoDynamicBrandDisplay",
+  "i18nresources": "oeDemoDynamicBrandDisplay",
+  "javascript": "oeDemoDynamicBrandDisplay",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}

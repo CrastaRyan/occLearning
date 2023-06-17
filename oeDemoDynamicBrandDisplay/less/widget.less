@@ -1,0 +1,60 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+#oeES6Widget {
+  #outerContainer {
+    background-color: #000;
+    padding: 100px;
+    height: 750px;
+
+    #title {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 25px;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      display: flex;
+      justify-content: space-between;
+      height: 200px;
+
+      #Kanati,
+      #Greenball,
+      #GBC,
+      #Centennial {
+        &:hover + .companyName {
+          visibility: visible;
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+
+      .displayContent {
+        margin: 10px;
+        width: 400px;
+        background-color: #fff;
+
+        img {
+          width: 300px;
+        }
+
+        .companyName {
+          visibility: hidden;
+        }
+
+        .description {
+          background-color: #faebd7;
+          color: #000;
+          font-size: 18px;
+          margin-top: 10px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+#cc_img__resize_wrapper {
+  justify-content: center;
+}
