@@ -1,0 +1,13 @@
+{
+  "widgetDescriptorName": "oeDemoConfigureBrandDisplay",
+  "properties": [
+    {
+      "id": "collectionItem",
+      "type": "collectionType",
+      "name": "collectionPickerValue",
+      "helpTextResourceId": "collectionPickerValueHelpText",
+      "labelResourceId": "collectionPickerValueLabel",
+      "maxLength": 4
+    }
+  ]
+}

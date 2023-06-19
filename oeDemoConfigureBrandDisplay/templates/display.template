@@ -1,0 +1,23 @@
+<!-- oeES6Widget -->
+<div id="oeES6Widget">
+    <div id="outerContainer">
+         <p id="title"><strong>Our</strong> Brands Settings</p>
+
+        <div class="card" data-bind="foreach: companyName">
+            <div class="displayContent" >
+                <a data-bind="attr: {href: $data.route, id: $data.displayName}" >
+                    <img data-bind="ccResizeImage: {
+                    source: '/file'+ $data.categoryImages[0].path,
+                    alt: $data.displayName,
+                    errorSrc:'images/noImage.png',
+                    errorAlt:'No Image Found'}" ></img>
+
+                </a>
+           
+                <p class="companyName" data-bind="text: $data.displayName" ></p>
+                <span class="description" >Description</span>
+                <p class="description" data-bind="text: $data.description"></p>
+            </div>
+        </div>
+    </div>
+</div>
